@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { EverestComponent } from './everest/everest.component'; // Import EverestComponent
+import { LandingComponent } from './landing/landing.component'; // Import LandingComponent
 
 @NgModule({
   declarations: [
     AppComponent,
-    EverestComponent
+    EverestComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
