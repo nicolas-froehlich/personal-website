@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { EverestComponent } from './everest/everest.component';
 
 const routes: Routes = [
-  { path : 'everest', component: EverestComponent }
+  { path: '', redirectTo: '/everest', pathMatch: 'full' }, // Default route
+  { path: 'everest', component: EverestComponent }
 ];
 
 @NgModule({
