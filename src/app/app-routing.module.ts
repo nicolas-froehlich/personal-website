@@ -9,7 +9,7 @@ import { PragueComponent } from './prague/prague.component';
 import { QuizComponent } from './quiz/quiz.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/landing', pathMatch: 'full' }, // Default route
+  { path: '', redirectTo: '/quiz', pathMatch: 'full' }, // Default route
   { path: 'landing', component: LandingComponent },
   { path: 'everest', component: EverestComponent },
   { path: 'deadsea', component: DeadSeaComponent },
