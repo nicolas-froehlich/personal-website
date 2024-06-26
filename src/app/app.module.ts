@@ -10,6 +10,7 @@ import { GuelbComponent } from './guelb/guelb.component';
 import { BaikalComponent } from './baikal/baikal.component';
 import { PragueComponent } from './prague/prague.component';
 import { LandingComponent } from './landing/landing.component'; // Import LandingComponent
+import { QuizComponent } from './quiz/quiz.component'; // Import LandingComponent
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { LandingComponent } from './landing/landing.component'; // Import Landin
     DeadSeaComponent,
     GuelbComponent,
     BaikalComponent,
-    PragueComponent
+    PragueComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { DeadSeaComponent } from './deadsea/deadsea.component';
 import { GuelbComponent } from './guelb/guelb.component';
 import { BaikalComponent } from './baikal/baikal.component';
 import { PragueComponent } from './prague/prague.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/landing', pathMatch: 'full' }, // Default route
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'deadsea', component: DeadSeaComponent },
   { path: 'guelb', component: GuelbComponent },
   { path: 'baikal', component: BaikalComponent },
-  { path: 'prague', component: PragueComponent }
+  { path: 'prague', component: PragueComponent },
+  { path: 'quiz', component: QuizComponent }
 ];
 
 @NgModule({
