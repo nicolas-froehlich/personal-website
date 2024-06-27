@@ -9,9 +9,11 @@ import { DeadSeaComponent } from './deadsea/deadsea.component';
 import { GuelbComponent } from './guelb/guelb.component';
 import { BaikalComponent } from './baikal/baikal.component';
 import { PragueComponent } from './prague/prague.component';
-import { LandingComponent } from './landing/landing.component'; // Import LandingComponent
-import { QuizComponent } from './quiz/quiz.component'; // Import LandingComponent
-
+import { SansibarComponent } from './sansibar/sansibar.component';
+import { HeimComponent } from './heimerdingen/heimerdingen.component';
+import { NoumeaComponent } from './noumea/noumea.component';
+import { LandingComponent } from './landing/landing.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,9 @@ import { QuizComponent } from './quiz/quiz.component'; // Import LandingComponen
     GuelbComponent,
     BaikalComponent,
     PragueComponent,
+    SansibarComponent,
+    HeimComponent,
+    NoumeaComponent,
     QuizComponent
   ],
   imports: [
