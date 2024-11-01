@@ -12,7 +12,7 @@ import { NoumeaComponent } from './noumea/noumea.component';
 import { QuizComponent } from './quiz/quiz.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/quiz', pathMatch: 'full' }, // Default route
+  { path: '', redirectTo: '/', pathMatch: 'full' }, // Default route
   { path: 'landing', component: LandingComponent },
   { path: 'e', component: EverestComponent },
   { path: 'd', component: DeadSeaComponent },
