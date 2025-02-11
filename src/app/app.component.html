@@ -1,3 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Wahl 2024 Ergebnisse</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+        h2 {
+            color: #000000;
+            font-size: 2em;
+            margin-top: 40px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-bottom: 30px;
+        }
+        .toc {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .toc li {
+            margin: 5px 0;
+        }
+        .toc a {
+            text-decoration: none;
+            color: #0000FF;
+            font-size: 1.2em;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.3em;
+            }
+            iframe {
+                height: 350px;
+            }
+            .toc a {
+                font-size: 1.1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            iframe {
+                height: 300px;
+            }
+            .toc a {
+                font-size: 1em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hier findet ihr einen Überblick über die Ergebnisse der AfD in der EU Wahl 2024</h1>
+    <h4>Leider sind nicht für alle Städte Geodaten verfügbar. Deshalb gibt es nur eine Auswahl an Städten.</h4>
+    <h4>Klickt auf diese Links:</h4>
+    <ul class="toc">
+        <li><a href="#berlin">Berlin</a></li>
+        <li><a href="#darmstadt">Darmstadt</a></li>
+    </ul>
+
+    <h2 id="berlin">Berlin</h2>
+    <iframe src="assets/berlin_eu_24.html"></iframe>
+
+    <h2 id="darmstadt">Darmstadt</h2>
+    <iframe src="assets/darmstadt_eu_24.html"></iframe>
+
+</body>
+</html>
+
+
+
+
+<!--
+
+
+
+
+
 <svg id="background" width='1028' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'>
   <g opacity='0.75' filter='url(#filter0_f_39_143)'>
     <circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/>
@@ -41,7 +147,6 @@
       <iframe src="https://nicolas-froehlich.shinyapps.io/MapScapingMap/" width="100%" height="800px" style="border: none;"></iframe>
     </div>
     
-    <!-- Embed the interactive Potsdam map -->
     <div class="interactive-map">
       <h2>Potsdam EU 24 Interactive Map</h2>
       <iframe src="assets/potsdam_eu_24.html" width="100%" height="800px" style="border: none;"></iframe>
@@ -49,6 +154,9 @@
 
     <router-outlet></router-outlet>
 </div>
+
+
+-->
 
 <!-- 
     <h1>
